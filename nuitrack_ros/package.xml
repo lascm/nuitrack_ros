@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>nuitrack_ros</name>
+  <version>0.0.0</version>
+  <description>The nuitrack_ros package</description>
+
+  <author email="byeongkyu@gmail.com">Byeong-Kyu Ahn</author>
+  <maintainer email="byeongkyu@gmail.com">Byeong-Kyu Ahn</maintainer>
+
+  <license>BSD</license>
+  <url type="website">https://github.com/byeongkyu/nuitrack_ros</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>nuitrack_core</depend>
+  <depend>nuitrack_user_viewer</depend>
+
+  <export>
+  </export>
+</package>
