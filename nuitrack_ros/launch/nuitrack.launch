@@ -5,7 +5,7 @@
 
     <arg name="offset_x" default="0.0" />
     <arg name="offset_y" default="0.0" />
-    <arg name="offset_z" default="0.87" />
+    <arg name="offset_z" default="0.78" />
     <arg name="offset_roll" default="0.0" />
     <arg name="offset_pitch" default="0.0" />
     <arg name="offset_yaw" default="0.0" />
