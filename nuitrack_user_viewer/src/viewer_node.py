@@ -49,8 +49,8 @@ class UserViewer:
                 cv2.rectangle(cv_image, (x1, y1), (x1+80, y1+20), render_color, -1)
                 cv2.putText(cv_image, 'User_%d'%user.id, (x1+6, y1+16), cv2.FONT_HERSHEY_PLAIN, 1, (255, 255, 255), 1, cv2.LINE_AA)
 
-        cv2.imshow("Image window", cv_image)
-        cv2.waitKey(1)
+      #  cv2.imshow("Image window", cv_image)
+      #  cv2.waitKey(1)
 
     def handle_user_data(self, msg):
         with self.lock:
